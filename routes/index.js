@@ -50,13 +50,13 @@ router.get('/real-estate', forwardAuthenticated, (req, res) => res.render('real'
 router.get('/faq', forwardAuthenticated, (req, res) => res.render('faq'));
 
 //blog one
-router.get('/Morgan-Stanley-Strategist-Recommends-Bitcoin-as-Central-Banks-Ramp-Up-Money-Printing', forwardAuthenticated, (req, res) => res.render('blog'));
+router.get('/How-to-discover-the-best-crypto-to-watch', forwardAuthenticated, (req, res) => res.render('discover'));
 
 //blog two
-router.get('/ETH-could-push-higher-with-a-daily-close-above-400', forwardAuthenticated, (req, res) => res.render('blo2'));
+router.get('/Cryptocurrency-investing-101', forwardAuthenticated, (req, res) => res.render('investing101'));
 
 //blog3
-router.get('/nasdaq-test-?', forwardAuthenticated, (req, res) => res.render('blog2'));
+router.get('/Crypto-Trading-101', forwardAuthenticated, (req, res) => res.render('trading101'));
 
 // TERMS
 router.get('/term-and-condition', forwardAuthenticated, (req, res) => res.render('terms'));
